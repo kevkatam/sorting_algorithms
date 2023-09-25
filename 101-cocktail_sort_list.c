@@ -94,7 +94,9 @@ void cocktail_sort_list(listint_t **list)
 	listint_t *p;
 	listint_t *lim_1, *lim_2;
 
-	if (list == NULL && *list == NULL)
+	if (list == NULL)
+		return;
+	if (*list == NULL)
 		return;
 	lim_1 = lim_2 = NULL;
 
