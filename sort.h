@@ -33,5 +33,6 @@ void cocktail_sort_list(listint_t **list);
 void swap_list(listint_t **p1, listint_t **p2, int n);
 void increase_sort(listint_t **p, listint_t **lim, listint_t **list);
 void decrease_sort(listint_t **p, listint_t **lim, listint_t **list);
+void counting_sort(int *array, size_t size);
 
 #endif
