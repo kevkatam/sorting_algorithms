@@ -34,5 +34,9 @@ void swap_list(listint_t **p1, listint_t **p2, int n);
 void increase_sort(listint_t **p, listint_t **lim, listint_t **list);
 void decrease_sort(listint_t **p, listint_t **lim, listint_t **list);
 void counting_sort(int *array, size_t size);
+void merge_sort(int *array, size_t size);
+void printdata(char *m, int *arr, int f, int t);
+void merge(int *arr, int low, int mid, int high, int *buf);
+void m_sort(int *arr, int low, int high, int *buff);
 
 #endif
