@@ -12,7 +12,7 @@ void printdata(char *m, int *arr, int f, int t)
 	char *s;
 	int i;
 
-	printf("[%s]i: ", m);
+	printf("[%s]: ", m);
 
 	s = "";
 	for (i = f; i < t + 1; i++)
